@@ -1,0 +1,35 @@
+{
+  "name": "react-native-camera-kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wix/react-native-camera-kit.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "version": "6.2.4",
+  "description": "Advanced native camera control with pre-defined aspect ratio, crop, etc",
+  "author": "Ran Greenberg <rang@wix.com>",
+  "nativePackage": true,
+  "bugs": {
+    "url": "https://github.com/wix/react-native-camera-kit/issues"
+  },
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "xcode": "open example/ios/camera-kit.xcodeproj"
+  },
+  "main": "src/index.js",
+  "dependencies": {
+    "lodash": "^4.14.2"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "react": "16.0.0",
+    "react-native": "0.51.0",
+    "babel-jest": "22.4.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.0.0"
+  },
+  "homepage": "https://github.com/wix/react-native-camera-kit"
+}
